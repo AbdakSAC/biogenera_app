@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style>
+  * {
+    height: 100vh;
+    background: transparent linear-gradient(0deg, #000000 0%, #342700 100%) 0%
+      0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  @font-face {
+    font-family: ObjectiveMedium;
+    src: url(/fonts/Objective-Medium.otf);
+  }
+  @font-face {
+    font-family: ObjectiveRegular;
+    src: url(/fonts/Objective-Regular.otf);
+  }
+</style>

@@ -10,10 +10,14 @@ import Check from "../icons/Check.astro";
   >
     <div class="w-full flex 2xl:flex-row flex-col">
       <div class="flex flex-col gap-5">
-        <div
-          class="relative w-full flex items-center gap-4 md:flex-row flex-col"
-        >
-          <img class="size-12 md:size-auto" src="/Img/3.webp" alt="Logo" />
+        <div class="w-full flex items-center gap-4 md:flex-row flex-col">
+          <div class="relative">
+            <img class="size-12 md:size-auto" src="/Img/3.webp" alt="Logo" />
+            <!-- icon -->
+            <div class="absolute top-0 right-0">
+              <Check />
+            </div>
+          </div>
           <div
             class="flex flex-col text-white font-[ObjectiveMedium] md:text-left text-center"
           >
@@ -26,14 +30,12 @@ import Check from "../icons/Check.astro";
               >@generamas.oficial</span
             >
           </div>
-          <!-- icon -->
-          <div class="absolute top-0 md:left-20 left-[9.5em] sm:left-[16.5em]">
-            <Check />
-          </div>
         </div>
         <!-- redes sociales -->
         <div class="w-full flex flex-row gap-6">
-          <ul class="w-full 2xl:w-1/2 md:w-3/12 flex flex-row justify-between">
+          <ul
+            class="w-full 2xl:w-1/2 md:w-3/12 flex flex-row justify-center gap-5 md:justify-start"
+          >
             <li>
               <a href="https://www.facebook.com/profile.php?id=61565615903854">
                 <img src="/Img/4.webp" alt="Facebook" />
@@ -58,7 +60,7 @@ import Check from "../icons/Check.astro";
         </div>
         <!-- Texto -->
         <div
-          class="w-full font-[ObjectiveMedium] text-white tracking-wider leading-tight text-[.4rem] text-center py-2 md:text-left sm:text-xl lg:text-[25px] 2xl:text-[50px] 2xl:leading-[1em]"
+          class="w-full font-[ObjectiveMedium] text-white tracking-wider leading-tight text-xs py-2 sm:text-lg xl:text-5xl 2xl:leading-[1em]"
         >
           Ofrecemos cursos y estrategias efectivas para que alcances el éxito y
           <p class="text-[#f68c11]">generes más.</p>

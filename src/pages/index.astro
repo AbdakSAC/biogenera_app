@@ -5,11 +5,11 @@ import Check from "../icons/Check.astro";
 ---
 
 <Layout>
-  <div
-    class="w-full h-full flex justify-center items-center 2xl:px-60 lg:px-16 md:px-14 sm:px-16 px-4"
-  >
-    <div class="w-full flex min-[1744px]:flex-row flex-col">
-      <div class="flex flex-col gap-5">
+  <div class="w-full h-full flex justify-center items-center">
+    <div
+      class="w-full flex min-[1744px]:flex-row overflow-y-auto max-h-full py-10 flex-col"
+    >
+      <div class="w-full flex flex-col gap-5 px-4">
         <div class="w-full flex items-center gap-4 md:flex-row flex-col">
           <div class="relative">
             <img class="size-12 md:size-auto" src="/Img/3.webp" alt="Logo" />
@@ -92,7 +92,7 @@ import Check from "../icons/Check.astro";
         </div>
       </div>
       <div
-        class="w-full flex flex-col min-[1744px]:flex-col min-[1057px]:flex-row items-end justify-between gap-6"
+        class="w-full flex flex-col min-[1744px]:flex-col min-[1057px]:flex-row items-end justify-between gap-6 px-4"
       >
         <Card />
       </div>

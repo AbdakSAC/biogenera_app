@@ -5,14 +5,14 @@ import Check from "../icons/Check.astro";
 ---
 
 <Layout>
-  <div class="w-full h-full flex justify-center items-center">
+  <div class="w-full h-full flex justify-center items-center sm:px-[6%]">
     <div
       class="w-full flex min-[1744px]:flex-row overflow-y-auto max-h-full py-10 flex-col"
     >
       <div class="w-full flex flex-col gap-5 px-4">
         <div class="w-full flex items-center gap-4 md:flex-row flex-col">
           <div class="relative">
-            <img class="size-12 md:size-auto" src="/Img/3.webp" alt="Logo" />
+            <img class="rounded-full size-28" src="/Img/3.webp" alt="Logo" />
             <!-- icon -->
             <div class="absolute top-0 right-0">
               <Check />
@@ -22,7 +22,7 @@ import Check from "../icons/Check.astro";
             class="flex flex-col text-white font-[ObjectiveMedium] md:text-left text-center"
           >
             <h1
-              class="font-bold xl:text-[50px] xl:leading-[60px] tracking-wider"
+              class="font-bold md:text-[30px] lg:text-[50px] lg:leading-[60px] tracking-wider"
             >
               Genera Más
             </h1>
@@ -42,7 +42,7 @@ import Check from "../icons/Check.astro";
                 target="_blank"
               >
                 <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110"
+                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
                   src="/Img/4.webp"
                   alt="Facebook"
                 />
@@ -51,7 +51,7 @@ import Check from "../icons/Check.astro";
             <li>
               <a href="https://wa.link/ndmupz" target="_blank">
                 <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110"
+                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
                   src="/Img/5.webp"
                   alt="Whatsapp"
                 />
@@ -63,7 +63,7 @@ import Check from "../icons/Check.astro";
                 target="_blank"
               >
                 <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110"
+                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
                   src="/Img/6.webp"
                   alt="TikTok"
                 />
@@ -75,7 +75,7 @@ import Check from "../icons/Check.astro";
                 target="_blank"
               >
                 <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110"
+                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
                   src="/Img/7.webp"
                   alt="Instagram"
                 />
@@ -92,7 +92,7 @@ import Check from "../icons/Check.astro";
         </div>
       </div>
       <div
-        class="w-full flex flex-col min-[1744px]:flex-col min-[1057px]:flex-row items-end justify-between gap-6 px-4"
+        class="w-full flex flex-col min-[1744px]:flex-col min-[1057px]:flex-row items-end justify-between px-5 sm:px-0 gap-6"
       >
         <Card />
       </div>

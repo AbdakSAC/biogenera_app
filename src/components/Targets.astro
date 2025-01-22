@@ -20,12 +20,12 @@ const cards = [
 {
   cards.map((card) => (
     <>
-      <ul class="w-full ">
+      <ul class="w-full overflow-hidden ">
         <li>
           <a href={card.link} target="_blank">
-            <div class="relative md:rounded-2xl rounded-lg overflow-hidden">
+            <div class="relative md:rounded-2xl rounded-lg overflow-hidden hover:scale-105 transition-all duration-300 ">
               <img class="w-full max-h-64 " src={card.url} alt="" />
-              <div class="hover:opacity-75 duration-300 absolute left-0 bottom-0 md:p-6 p-2 w-full hover:scale-105 ">
+              <div class="  absolute left-0 bottom-0 md:p-6 p-2 w-full ">
                 <div class="flex flex-wrap gap-2 items-center">
                   <span class="w-fit text-white font-[ObjectiveMedium] md:text-xl min-[1564px]:text-2xl sm:text-xl min-[460px]:text-[1.3em] text-[.8em] ">
                     {card.title}

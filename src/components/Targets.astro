@@ -1,24 +1,9 @@
 ---
-const cards = [
-  {
-    title: "Conoce más sobre",
-    title_special: "Brenner Vera.",
-    description: "Conoce sobre Brenner, su trayectoria, logros y proyectos.",
-    url: "/Img/1.webp ",
-    link: "https://brennervera.com/",
-  },
-  {
-    title: "Comunícate con un",
-    title_special: "asesor especializado.",
-    description: "Resuelve tus dudas y preguntas con la ayuda de un asesor.",
-    url: "/Img/2.webp",
-    link: "https://wa.link/ndmupz",
-  },
-];
+import { SOCIALS } from "../consts/socials";
 ---
 
 {
-  cards.map((card) => (
+  SOCIALS.map((card) => (
     <>
       <ul class="w-full overflow-hidden ">
         <li>

@@ -1,0 +1,21 @@
+---
+import { SOCIALS } from "../consts/socials";
+---
+
+<ul
+  class="w-full 2xl:w-1/2 md:w-3/12 flex flex-row justify-center gap-5 md:justify-start"
+>
+  {
+    SOCIALS.map((item, i) => (
+      <li>
+        <a href={item.link} target="_blank">
+          <img
+            class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
+            src={`/Img/${item.image}`}
+            alt={item.alt}
+          />
+        </a>
+      </li>
+    ))
+  }
+</ul>

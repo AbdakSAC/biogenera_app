@@ -1,16 +1,22 @@
 export const SOCIALS = [
   {
-    title: "Conoce más sobre",
-    title_special: "Brenner Vera.",
-    description: "Conoce sobre Brenner, su trayectoria, logros y proyectos.",
-    url: "/Img/1.webp ",
-    link: "https://brennervera.com/",
+    link: "https://www.facebook.com/profile.php?id=61565615903854",
+    image: "4.webp",
+    alt: "Facebook",
   },
   {
-    title: "Comunícate con un",
-    title_special: "asesor especializado.",
-    description: "Resuelve tus dudas y preguntas con la ayuda de un asesor.",
-    url: "/Img/2.webp",
     link: "https://wa.link/y9csr2",
+    image: "5.webp",
+    alt: "Whatsapp",
+  },
+  {
+    link: "https://www.tiktok.com/@generamas.oficial",
+    image: "6.webp",
+    alt: "TikTok",
+  },
+  {
+    link: "https://www.instagram.com/generamas.oficial/",
+    image: "7.webp",
+    alt: "Instagram",
   },
 ];

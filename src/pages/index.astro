@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Targets.astro";
 import Check from "../icons/Check.astro";
+import SocialCard from "../components/SocialCard.astro";
 ---
 
 <Layout>
@@ -33,55 +34,7 @@ import Check from "../icons/Check.astro";
         </div>
         <!-- redes sociales -->
         <div class="w-full flex flex-row gap-6">
-          <ul
-            class="w-full 2xl:w-1/2 md:w-3/12 flex flex-row justify-center gap-5 md:justify-start"
-          >
-            <li>
-              <a
-                href="https://www.facebook.com/profile.php?id=61565615903854"
-                target="_blank"
-              >
-                <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
-                  src="/Img/4.webp"
-                  alt="Facebook"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="https://wa.link/y9csr2" target="_blank">
-                <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
-                  src="/Img/5.webp"
-                  alt="Whatsapp"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.tiktok.com/@generamas.oficial"
-                target="_blank"
-              >
-                <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
-                  src="/Img/6.webp"
-                  alt="TikTok"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/generamas.oficial/"
-                target="_blank"
-              >
-                <img
-                  class="hover:animate-opaco hover:opacity-75 hover:scale-110 transition-all duration-300"
-                  src="/Img/7.webp"
-                  alt="Instagram"
-                />
-              </a>
-            </li>
-          </ul>
+          <SocialCard />
         </div>
         <!-- Texto -->
         <div
